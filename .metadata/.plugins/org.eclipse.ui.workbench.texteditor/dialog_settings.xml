@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="max" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="Max"/>
+			<item value="maxmize"/>
+			<item value="Agestore"/>
+			<item value="E:/QC_Workspace/AA_Automation/TestData/"/>
+			<item value="void History"/>
+			<item value="void payoff"/>
+			<item value="void history"/>
+			<item value="Qa Jobs"/>
+		</list>
+		<list key="replacehistory">
+			<item value="E:/QC_Workspace/AA_Automation/TestData/LOC/"/>
+			<item value="QA Jobs"/>
+			<item value="Qa Jobs"/>
+			<item value="Thread.sleep(5000);"/>
+			<item value="Thread.sleep(8000);"/>
+			<item value="Thread.sleep(10000);"/>
+			<item value="&#x09;Thread.sleep(8000);"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="354" key="DIALOG_HEIGHT"/>
+		<item value="366" key="DIALOG_X_ORIGIN"/>
+		<item value="296" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

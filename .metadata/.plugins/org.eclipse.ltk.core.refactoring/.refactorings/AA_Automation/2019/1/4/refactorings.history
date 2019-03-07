@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Tests.Loan_Draw_Minpayment_Dismissed_&apos; to &apos;Loan_Draw_Minpayment_Dismissed_drawnotavailable&apos;&#x0D;&#x0A;- Original project: &apos;AA_Automation&apos;&#x0D;&#x0A;- Original element: &apos;Tests.Loan_Draw_Minpayment_Dismissed_&apos;&#x0D;&#x0A;- Renamed element: &apos;Tests.Loan_Draw_Minpayment_Dismissed_drawnotavailable&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Loan_Draw_Minpayment_Dismissed_&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Tests{Loan_Draw_Minpayment_Dismissed_.java[Loan_Draw_Minpayment_Dismissed_" matchStrategy="1" name="Loan_Draw_Minpayment_Dismissed_drawnotavailable" qualified="false" references="true" similarDeclarations="false" stamp="1548069405742" textual="false" version="1.0"/>
+</session>

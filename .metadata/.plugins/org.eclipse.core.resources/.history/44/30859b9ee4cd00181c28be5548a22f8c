@@ -1,0 +1,8 @@
+package Tests.TLP;
+
+public class Snippet {
+	public static void main(String[] args) {
+		TwoLoans_OneVIN_OneDefault_Repossession
+	}
+}
+

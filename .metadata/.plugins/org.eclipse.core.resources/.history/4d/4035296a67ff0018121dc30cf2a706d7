@@ -1,0 +1,5 @@
+package Tests;
+
+public class Loan_statement_Draw_DLQ_Cure_MinPayment_Draw_statment {
+
+}

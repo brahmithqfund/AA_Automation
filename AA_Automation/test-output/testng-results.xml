@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="25" failed="5" total="31" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8086121" started-at="2019-02-26T06:37:16Z" finished-at="2019-02-26T08:52:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8086121" started-at="2019-02-26T06:37:16Z" finished-at="2019-02-26T08:52:02Z">
+      <class name="Tests.AEA_LOCRegression_batchFile_4">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="setup" is-config="true" duration-ms="2637" started-at="2019-02-26T12:07:16Z" finished-at="2019-02-26T12:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_Sc281()[pri:186, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_Sc281" duration-ms="1635721" started-at="2019-02-26T12:07:18Z" finished-at="2019-02-26T12:34:34Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == /html/body/form/table[1]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:47617/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 59fccc11-ab3b-4ec6-8066-8e39710de297
+*** Element info: {Using=xpath, value=/html/body/form/table[1]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/form/table[1]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:47617/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 59fccc11-ab3b-4ec6-8066-8e39710de297
+*** Element info: {Using=xpath, value=/html/body/form/table[1]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at Tests.AEA_LOCRegression_batchFile_4.LOC_PreRCC_Deposit(AEA_LOCRegression_batchFile_4.java:13878)
+	at Tests.AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_Sc281(AEA_LOCRegression_batchFile_4.java:40810)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_Sc281 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="640" started-at="2019-02-26T12:34:34Z" finished-at="2019-02-26T12:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_Sc281 status=FAILURE method=AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_Sc281()[pri:186, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_VoidBNK_Sc282()[pri:187, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_VoidBNK_Sc282" duration-ms="1660265" started-at="2019-02-26T12:34:35Z" finished-at="2019-02-26T13:02:15Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == /html/body/form/table[1]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9080/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 0fbca6b1-1a76-4f3b-bda4-c39e3c89dc2e
+*** Element info: {Using=xpath, value=/html/body/form/table[1]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/form/table[1]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9080/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 0fbca6b1-1a76-4f3b-bda4-c39e3c89dc2e
+*** Element info: {Using=xpath, value=/html/body/form/table[1]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/table/tbody/tr[2]/td/input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at Tests.AEA_LOCRegression_batchFile_4.LOC_PreRCC_Deposit(AEA_LOCRegression_batchFile_4.java:13878)
+	at Tests.AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_VoidBNK_Sc282(AEA_LOCRegression_batchFile_4.java:40892)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_VoidBNK_Sc282 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="4368" started-at="2019-02-26T13:02:15Z" finished-at="2019-02-26T13:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_VoidBNK_Sc282 status=FAILURE method=AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_VoidBNK_Sc282()[pri:187, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_RCCStatusverification_Sc283()[pri:188, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_RCCStatusverification_Sc283" duration-ms="1448857" started-at="2019-02-26T13:02:19Z" finished-at="2019-02-26T13:26:28Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == /html/body/form[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[7]/td[11]/input[1] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:39716/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: f9b52952-6ed2-477e-b0e3-da31216943f4
+*** Element info: {Using=xpath, value=/html/body/form[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[7]/td[11]/input[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/form[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[7]/td[11]/input[1] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:39716/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: f9b52952-6ed2-477e-b0e3-da31216943f4
+*** Element info: {Using=xpath, value=/html/body/form[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[7]/td[11]/input[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at Tests.AEA_LOCRegression_batchFile_4.Bankrupt(AEA_LOCRegression_batchFile_4.java:18833)
+	at Tests.AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_RCCStatusverification_Sc283(AEA_LOCRegression_batchFile_4.java:40967)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_RCCStatusverification_Sc283 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="250" started-at="2019-02-26T13:26:28Z" finished-at="2019-02-26T13:26:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_RCCStatusverification_Sc283 status=FAILURE method=AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_RCCStatusverification_Sc283()[pri:188, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_VoidBNK_RCCStatusverification_Sc284()[pri:189, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_VoidBNK_RCCStatusverification_Sc284" duration-ms="1451247" started-at="2019-02-26T13:26:29Z" finished-at="2019-02-26T13:50:40Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with xpath == /html/body/form[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[7]/td[11]/input[1] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8561/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: e82cec51-ff1a-4e14-b885-461fdfd6a454
+*** Element info: {Using=xpath, value=/html/body/form[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[7]/td[11]/input[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == /html/body/form[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[7]/td[11]/input[1] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8561/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: e82cec51-ff1a-4e14-b885-461fdfd6a454
+*** Element info: {Using=xpath, value=/html/body/form[1]/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr[7]/td[2]/table/tbody/tr/td/table/tbody/tr[7]/td[11]/input[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at Tests.AEA_LOCRegression_batchFile_4.Bankrupt(AEA_LOCRegression_batchFile_4.java:18833)
+	at Tests.AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_VoidBNK_RCCStatusverification_Sc284(AEA_LOCRegression_batchFile_4.java:41038)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_VoidBNK_RCCStatusverification_Sc284 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="219" started-at="2019-02-26T13:50:40Z" finished-at="2019-02-26T13:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_VoidBNK_RCCStatusverification_Sc284 status=FAILURE method=AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_VoidBNK_RCCStatusverification_Sc284()[pri:189, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_RCCSchnotgenerated_Sc285()[pri:190, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_RCCSchnotgenerated_Sc285" duration-ms="1438038" started-at="2019-02-26T13:50:40Z" finished-at="2019-02-26T14:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_RCCSchnotgenerated_Sc285 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="94" started-at="2019-02-26T14:14:38Z" finished-at="2019-02-26T14:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_RCCSchnotgenerated_Sc285 status=SUCCESS method=AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_RCCSchnotgenerated_Sc285()[pri:190, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_VoidPendingBnkrupt_VerifyRCCSchedule_Sc286()[pri:191, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_VoidPendingBnkrupt_VerifyRCCSchedule_Sc286" duration-ms="443628" started-at="2019-02-26T14:14:38Z" finished-at="2019-02-26T14:22:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with name == storeCode (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:45638/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 75c12724-7af5-4a6d-abc8-58fe90694ccd
+*** Element info: {Using=name, value=storeCode}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with name == storeCode (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:45638/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 75c12724-7af5-4a6d-abc8-58fe90694ccd
+*** Element info: {Using=name, value=storeCode}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:397)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at Tests.AEA_LOCRegression_batchFile_4.AgeStore(AEA_LOCRegression_batchFile_4.java:1777)
+	at Tests.AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_VoidPendingBnkrupt_VerifyRCCSchedule_Sc286(AEA_LOCRegression_batchFile_4.java:41157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_VoidPendingBnkrupt_VerifyRCCSchedule_Sc286 -->
+        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_VoidPendingBnkrupt_VerifyRCCSchedule_Sc286 status=FAILURE method=AEA_LOCRegression_batchFile_4.DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_VoidPendingBnkrupt_VerifyRCCSchedule_Sc286()[pri:191, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:45638/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 75c12724-7af5-4a6d-abc8-58fe90694ccd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Unable to get browser (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'QTLSYS2-139', ip: '192.168.2.139', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:45638/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
+Session ID: 75c12724-7af5-4a6d-abc8-58fe90694ccd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.ie.InternetExplorerDriver.getScreenshotAs(InternetExplorerDriver.java:235)
+	at Tests.ExecuteScripts.getScreenhot(ExecuteScripts.java:117)
+	at Tests.AEA_LOCRegression_batchFile_4.getResult(AEA_LOCRegression_batchFile_4.java:43126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCInit_Draw_Stmt_Dep_ReturnR01andR09_DLQT_Cure_ACHRevoke_WO_CheckRCC_()[pri:197, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCInit_Draw_Stmt_Dep_ReturnR01andR09_DLQT_Cure_ACHRevoke_WO_CheckRCC_" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCInit_Draw_Stmt_Dep_ReturnR01andR09_DLQT_Cure_ACHRevoke_WO_CheckRCC_ -->
+        <test-method status="SKIP" signature="LOCInit_Draw_Stmt_delinquent_Cure_WO_RCCSchd_WORecoveryfullPmt_VoidWORecovery_RCCSCheduleRevise_IsLoanRCCN()[pri:199, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCInit_Draw_Stmt_delinquent_Cure_WO_RCCSchd_WORecoveryfullPmt_VoidWORecovery_RCCSCheduleRevise_IsLoanRCCN" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCInit_Draw_Stmt_delinquent_Cure_WO_RCCSchd_WORecoveryfullPmt_VoidWORecovery_RCCSCheduleRevise_IsLoanRCCN -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_clear_2ndInstDep_1stInstRet()[pri:206, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_clear_2ndInstDep_1stInstRet" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_clear_2ndInstDep_1stInstRet -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_delinquent_Cure_WO_RCCScdl_RCCRevoke_Authorizeafter1month_RCCRevise()[pri:201, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_delinquent_Cure_WO_RCCScdl_RCCRevoke_Authorizeafter1month_RCCRevise" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_delinquent_Cure_WO_RCCScdl_RCCRevoke_Authorizeafter1month_RCCRevise -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_clear_NextInstPartPmt_RCCScdlReviseBalAmt_()[pri:203, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_clear_NextInstPartPmt_RCCScdlReviseBalAmt_" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_clear_NextInstPartPmt_RCCScdlReviseBalAmt_ -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="DeflutLoan__GenerateRcc_PendingBNK_VoidPendingBNK_DepositNotBeProcessed()[pri:193, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DeflutLoan__GenerateRcc_PendingBNK_VoidPendingBNK_DepositNotBeProcessed" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeflutLoan__GenerateRcc_PendingBNK_VoidPendingBNK_DepositNotBeProcessed -->
+        <test-method status="SKIP" signature="LocI_Draw_Stmt_Deposit_Return_DLQ_Cure_DEF_WO_CheckEligibilityofRCC()[pri:194, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LocI_Draw_Stmt_Deposit_Return_DLQ_Cure_DEF_WO_CheckEligibilityofRCC" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocI_Draw_Stmt_Deposit_Return_DLQ_Cure_DEF_WO_CheckEligibilityofRCC -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_delinquent_Cure_DFLT_WO_RCCScdl_RCCRev_RCCCancelled_()[pri:200, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_delinquent_Cure_DFLT_WO_RCCScdl_RCCRev_RCCCancelled_" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_delinquent_Cure_DFLT_WO_RCCScdl_RCCRev_RCCCancelled_ -->
+        <test-method status="SKIP" signature="LocI_Draw_Stmt_Deposit_otherthan1and9Return_DLQ_Cure_DEF_WO_CheckEligibilityofRCC()[pri:195, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LocI_Draw_Stmt_Deposit_otherthan1and9Return_DLQ_Cure_DEF_WO_CheckEligibilityofRCC" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocI_Draw_Stmt_Deposit_otherthan1and9Return_DLQ_Cure_DEF_WO_CheckEligibilityofRCC -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCI_Draw_stmt_Deposit_ReturnwithR01_DLQ_Cure_WO_PendingBNK_Deceased_EligibilityRCC_Sc291()[pri:196, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_stmt_Deposit_ReturnwithR01_DLQ_Cure_WO_PendingBNK_Deceased_EligibilityRCC_Sc291" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_stmt_Deposit_ReturnwithR01_DLQ_Cure_WO_PendingBNK_Deceased_EligibilityRCC_Sc291 -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="DFLTLoan_WO_RCCStatusShouldbeY_ChangeFrequency_RCCSchedule_InstDatesBaseOnNewFrequency_()[pri:204, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLTLoan_WO_RCCStatusShouldbeY_ChangeFrequency_RCCSchedule_InstDatesBaseOnNewFrequency_" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLTLoan_WO_RCCStatusShouldbeY_ChangeFrequency_RCCSchedule_InstDatesBaseOnNewFrequency_ -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="DeflutLoan__GenerateRcc_PendingBNK_DepositNotBeProcessed()[pri:192, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DeflutLoan__GenerateRcc_PendingBNK_DepositNotBeProcessed" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeflutLoan__GenerateRcc_PendingBNK_DepositNotBeProcessed -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_1stInstRet()[pri:202, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_1stInstRet" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_1stInstRet -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="DFLTLoan_WO_RCCStatusShouldbeY_ChangeFrequency_RCCSchedule_InstDatesBaseOnOldFrequency_()[pri:205, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLTLoan_WO_RCCStatusShouldbeY_ChangeFrequency_RCCSchedule_InstDatesBaseOnOldFrequency_" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLTLoan_WO_RCCStatusShouldbeY_ChangeFrequency_RCCSchedule_InstDatesBaseOnOldFrequency_ -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCInit_Draw_Stmt_delinquent_Cure_WO_RCCSchd_WORecoveryfullPmt_RCCSCheduleCancel_()[pri:198, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCInit_Draw_Stmt_delinquent_Cure_WO_RCCSchd_WORecoveryfullPmt_RCCSCheduleCancel_" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCInit_Draw_Stmt_delinquent_Cure_WO_RCCSchd_WORecoveryfullPmt_RCCSCheduleCancel_ -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_1stinst_return_2ndinst_Return_3rdinst_Return()[pri:207, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_1stinst_return_2ndinst_Return_3rdinst_Return" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_DLQ_Cure_Default_WO_1stinst_return_2ndinst_Return_3rdinst_Return -->
+        <test-method status="SKIP" signature="LOCI_Draw_stmt_Deposit_ReturnwithR01_ACTM_ACTMEnd_RepDepRecordchouldpickforDeposit_Sc314()[pri:216, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_stmt_Deposit_ReturnwithR01_ACTM_ACTMEnd_RepDepRecordchouldpickforDeposit_Sc314" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_stmt_Deposit_ReturnwithR01_ACTM_ACTMEnd_RepDepRecordchouldpickforDeposit_Sc314 -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCI_wky_Bim_Bi_Draw_Stmt_Dep_Return_RepDep_Clear_Return()[pri:214, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_wky_Bim_Bi_Draw_Stmt_Dep_Return_RepDep_Clear_Return" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_wky_Bim_Bi_Draw_Stmt_Dep_Return_RepDep_Clear_Return -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCI_wky_Bim_Bi_Draw_Stmt_Dep_Return_RepDep()[pri:212, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_wky_Bim_Bi_Draw_Stmt_Dep_Return_RepDep" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_wky_Bim_Bi_Draw_Stmt_Dep_Return_RepDep -->
+        <test-method status="SKIP" signature="LOCI_WKY_Bim_Bi_Draw_Stmt_Dep_Return_PartialPayment_RepDep()[pri:213, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_WKY_Bim_Bi_Draw_Stmt_Dep_Return_PartialPayment_RepDep" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_WKY_Bim_Bi_Draw_Stmt_Dep_Return_PartialPayment_RepDep -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositandClearLastInstall_LoanshouldBeClosed()[pri:210, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositandClearLastInstall_LoanshouldBeClosed" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositandClearLastInstall_LoanshouldBeClosed -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositLastInstall_LoanshouldnotBeClosed()[pri:209, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositLastInstall_LoanshouldnotBeClosed" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositLastInstall_LoanshouldnotBeClosed -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmnt_Dep_Return_RepDep_ActMilitary_RepresrecCancel_()[pri:215, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmnt_Dep_Return_RepDep_ActMilitary_RepresrecCancel_" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmnt_Dep_Return_RepDep_ActMilitary_RepresrecCancel_ -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositandReturnLastInstall_Loanshouldbeupdatedtopreviousstatusandscheduleshouldberevised()[pri:211, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositandReturnLastInstall_Loanshouldbeupdatedtopreviousstatusandscheduleshouldberevised" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositandReturnLastInstall_Loanshouldbeupdatedtopreviousstatusandscheduleshouldberevised -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="DFLT_WO_RccSChedule_RccRevoke_Epp_voidEpp_RccAuthorzation_CustomershouldeligibleforRCCnow()[pri:208, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="DFLT_WO_RccSChedule_RccRevoke_Epp_voidEpp_RccAuthorzation_CustomershouldeligibleforRCCnow" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DFLT_WO_RccSChedule_RccRevoke_Epp_voidEpp_RccAuthorzation_CustomershouldeligibleforRCCnow -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="endReport()[pri:0, instance:Tests.AEA_LOCRegression_batchFile_4@53b32d7]" name="endReport" is-config="true" duration-ms="0" started-at="2019-02-26T14:22:02Z" finished-at="2019-02-26T14:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- Tests.AEA_LOCRegression_batchFile_4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

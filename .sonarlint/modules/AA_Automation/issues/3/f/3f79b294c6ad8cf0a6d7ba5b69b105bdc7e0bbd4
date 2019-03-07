@@ -1,0 +1,35 @@
+
+nsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(îÀÎýÿÿÿÿ8’È˜úÚ,
+…"squid:ClassVariableVisibilityCheck"PMake wait a static final constant or non-public and provide accessors if needed.(ÇªŠÄ8’È˜úÚ,
+{squid:S00117•"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ý¯ßÔþÿÿÿÿ8’È˜úÚ,
+isquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(ˆŒó8’È˜úÚ,
+\squid:S1854£"8Remove this useless assignment to local variable "wait".(¼¹ç¬þÿÿÿÿ8É‘øúÚ,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÖÒáÏÿÿÿÿÿ
+vsquid:S00117„"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«½Þä8’È˜úÚ,
+vsquid:S00117–"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ˆàø8É‘øúÚ,
+^
+squid:S106‡";Replace this usage of System.out or System.err by a logger.(£ñð”ýÿÿÿÿ8’È˜úÚ,
+fsquid:S00112€"FDefine and throw a dedicated exception instead of using a generic one.(–ÛÚÜ8É‘øúÚ,
+”squid:S1845"vRename field "wait" to prevent any misunderstanding/clash with method "wait" defined in superclass "java.lang.Object".(ÇªŠÄ8’È˜úÚ,
+{squid:S00117Š"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ­¿µÿÿÿÿÿ8’È˜úÚ,
+{squid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¾˜ þÿÿÿÿ8’È˜úÚ,
+vsquid:S00117—"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ß·8É‘øúÚ,
+Msquid:S1481£")Remove this unused "wait" local variable.(¼¹ç¬þÿÿÿÿ8É‘øúÚ,
+fsquid:S1132Œ"GMove the "Y" string literal on the left side of this string comparison.(¥£Ù8’È˜úÚ,
+lsquid:S11920"IDefine a constant instead of duplicating this literal "user.dir" 3 times.(ÍûÅ”ûÿÿÿÿ8’È˜úÚ,
+{squid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œéè—þÿÿÿÿ8’È˜úÚ,
+jsquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(Êå¡Ë8É‘øúÚ,
+isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ôòÀ8’È˜úÚ,
+nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(šÁˆøÿÿÿÿ8’È˜úÚ,
+usquid:S00117ƒ"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÕœ38’È˜úÚ,
+jsquid:CommentedOutCodeLine‹"<This block of commented-out lines of code should be removed.(ÝÉÂÚ8’È˜úÚ,
+nsquid:S00100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÛÚÜ8’È˜úÚ,
+nsquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(¦·¥Ïüÿÿÿÿ8’È˜úÚ,
+Csquid:S1166z"%Either log or rethrow this exception.(áéÇ“8’È˜úÚ,
+{squid:S00117‘"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥±Æäúÿÿÿÿ8’È˜úÚ,
+gsquid:HiddenFieldCheck£"8Rename "wait" which hides the field declared at line 31.(¼¹ç¬þÿÿÿÿ8É‘øúÚ,
+isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(…ßõ®8’È˜úÚ,
+{squid:S00117Ž"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ä§‘øÿÿÿÿ8’È˜úÚ,
+nsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(ó±ñüÿÿÿÿ8«‡ýúÚ,
+{squid:S00117“"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ƒÉöúÿÿÿÿ8’È˜úÚ,
+vsquid:S00117”"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÔ8’È˜úÚ,

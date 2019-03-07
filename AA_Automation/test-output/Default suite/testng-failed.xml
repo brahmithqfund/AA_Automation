@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Tests.AEA_LOCRegression_batchFile_4">
+        <methods>
+          <include name="DFLTcustomer_RCC7_RCCSchedule__PendingBankruptcy_VoidPendingBnkrupt_VerifyRCCSchedule_Sc286"/>
+          <include name="LocI_Draw_Stmt_Deposit_Return_DLQ_Cure_DEF_WO_CheckEligibilityofRCC"/>
+          <include name="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_clear_2ndInstDep_1stInstRet"/>
+          <include name="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositLastInstall_LoanshouldnotBeClosed"/>
+          <include name="getResult"/>
+          <include name="DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_VoidBNK_RCCStatusverification_Sc284"/>
+          <include name="setup"/>
+          <include name="LOCI_Draw_Stmt_delinquent_Cure_DFLT_WO_RCCScdl_RCCRev_RCCCancelled_"/>
+          <include name="LOCInit_Draw_Stmt_Dep_ReturnR01andR09_DLQT_Cure_ACHRevoke_WO_CheckRCC_"/>
+          <include name="DeflutLoan__GenerateRcc_PendingBNK_DepositNotBeProcessed"/>
+          <include name="DeflutLoan__GenerateRcc_PendingBNK_VoidPendingBNK_DepositNotBeProcessed"/>
+          <include name="DFLT_WO_RccSChedule_RccRevoke_Epp_voidEpp_RccAuthorzation_CustomershouldeligibleforRCCnow"/>
+          <include name="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_clear_NextInstPartPmt_RCCScdlReviseBalAmt_"/>
+          <include name="LOCInit_Draw_Stmt_delinquent_Cure_WO_RCCSchd_WORecoveryfullPmt_RCCSCheduleCancel_"/>
+          <include name="LOCI_Draw_Stmt_Dlqt_Cure_WO_RCCSchdl_1stInstDep_1stInstRet"/>
+          <include name="DFLTcustomer_RCC7_RCCSchedule__Bankruptcy_RCCStatusverification_Sc283"/>
+          <include name="LOCI_Draw_Stmt_delinquent_Cure_WO_RCCScdl_RCCRevoke_Authorizeafter1month_RCCRevise"/>
+          <include name="LOCI_Draw_stmt_Deposit_ReturnwithR01_DLQ_Cure_WO_PendingBNK_Deceased_EligibilityRCC_Sc291"/>
+          <include name="LOCI_Draw_Stmnt_Dep_Return_RepDep_ActMilitary_RepresrecCancel_"/>
+          <include name="LOCI_WKY_Bim_Bi_Draw_Stmt_Dep_Return_PartialPayment_RepDep"/>
+          <include name="DFLTLoan_WO_RCCStatusShouldbeY_ChangeFrequency_RCCSchedule_InstDatesBaseOnOldFrequency_"/>
+          <include name="LOCI_wky_Bim_Bi_Draw_Stmt_Dep_Return_RepDep_Clear_Return"/>
+          <include name="LOCI_wky_Bim_Bi_Draw_Stmt_Dep_Return_RepDep"/>
+          <include name="LOCI_Draw_stmt_Deposit_ReturnwithR01_ACTM_ACTMEnd_RepDepRecordchouldpickforDeposit_Sc314"/>
+          <include name="DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_VoidBNK_Sc282"/>
+          <include name="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_1stinst_return_2ndinst_Return_3rdinst_Return"/>
+          <include name="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositandClearLastInstall_LoanshouldBeClosed"/>
+          <include name="LOCInit_Draw_Stmt_delinquent_Cure_WO_RCCSchd_WORecoveryfullPmt_VoidWORecovery_RCCSCheduleRevise_IsLoanRCCN"/>
+          <include name="DFLTcustomer_RCC7_RCCSchedule__lastinstdeposit_Bnkruptwithclear_Sc281"/>
+          <include name="LocI_Draw_Stmt_Deposit_otherthan1and9Return_DLQ_Cure_DEF_WO_CheckEligibilityofRCC"/>
+          <include name="DFLTLoan_WO_RCCStatusShouldbeY_ChangeFrequency_RCCSchedule_InstDatesBaseOnNewFrequency_"/>
+          <include name="LOCI_Draw_Stmt_DLQ_Cure_Default_WO_DepositandReturnLastInstall_Loanshouldbeupdatedtopreviousstatusandscheduleshouldberevised"/>
+        </methods>
+      </class> <!-- Tests.AEA_LOCRegression_batchFile_4 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

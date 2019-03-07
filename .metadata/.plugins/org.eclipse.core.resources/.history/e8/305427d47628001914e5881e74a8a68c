@@ -1,0 +1,8 @@
+package Tests;
+
+public class Snippet {
+	public static void main(String[] args) {
+		AA_LOCICash_Draw_Stmnt_Payoff_PayoffVoidDueDate_DLQ_Cure_Payoff_Closure_Txn_Testdata
+	}
+}
+

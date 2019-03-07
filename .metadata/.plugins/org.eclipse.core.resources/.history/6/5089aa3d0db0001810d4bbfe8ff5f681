@@ -1,0 +1,5 @@
+package Tests.PDL;
+
+public class NewLoan_VoidEncryptionKey {
+
+}
